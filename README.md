@@ -58,12 +58,13 @@ foreach (Album albumResult in searchResponse.Albums.Items)
 ```
 
 The console output is:
-  Found 49 albums. Here are the first 5:
-  Greatest Hits
-  Foo Fighters
-  There Is Nothing Left To Lose
-  Wasting Light
-  The Colour And The Shape
+
+    Found 49 albums. Here are the first 5:
+    Greatest Hits
+    Foo Fighters
+    There Is Nothing Left To Lose
+    Wasting Light
+    The Colour And The Shape
 
 List tracks in the first album
 ```csharp
@@ -87,24 +88,25 @@ foreach (Track track in album.Tracks.Items)
 ```
 
 The console output is:
-  Album: Greatest Hits (link: http://music.xbox.com/Album/E9D50C02-0100-11DB-89CA-0019B92A3933?partnerID=XboxMusicClientTest&action=Play, image: http://musicimage.xboxlive.com/content/music.E9D50C02-0100-11DB-89CA-0019B92A3933/image?locale=en-GB&w=800&h=800)
-  Artist: Foo Fighters (link: http://music.xbox.com/Artist/9C2A0000-0200-11DB-89CA-0019B92A3933?partnerID=XboxMusicClientTest, image: http://musicimage.xboxlive.com/content/music.9C2A0000-0200-11DB-89CA-0019B92A3933/image?locale=en-GB&w=1920&h=1080)
-  Track: 1 - All My Life
-  Track: 2 - Best Of You
-  Track: 3 - Everlong
-  Track: 4 - The Pretender
-  Track: 5 - My Hero
-  Track: 6 - Learn To Fly
-  Track: 7 - Times Like These
-  Track: 8 - Monkey Wrench
-  Track: 9 - Big Me
-  Track: 10 - Breakout
-  Track: 11 - Long Road To Ruin
-  Track: 12 - This Is A Call
-  Track: 13 - Skin And Bones
-  Track: 14 - Wheels
-  Track: 15 - Word Forward
-  Track: 16 - Everlong (Acoustic Version)
+
+    Album: Greatest Hits (link: http://music.xbox.com/Album/E9D50C02-0100-11DB-89CA-0019B92A3933?partnerID=XboxMusicClientTest&action=Play, image: http://musicimage.xboxlive.com/content/music.E9D50C02-0100-11DB-89CA-0019B92A3933/image?locale=en-GB&w=800&h=800)
+    Artist: Foo Fighters (link: http://music.xbox.com/Artist/9C2A0000-0200-11DB-89CA-0019B92A3933?partnerID=XboxMusicClientTest, image: http://musicimage.xboxlive.com/content/music.9C2A0000-0200-11DB-89CA-0019B92A3933/image?locale=en-GB&w=1920&h=1080)
+    Track: 1 - All My Life
+    Track: 2 - Best Of You
+    Track: 3 - Everlong
+    Track: 4 - The Pretender
+    Track: 5 - My Hero
+    Track: 6 - Learn To Fly
+    Track: 7 - Times Like These
+    Track: 8 - Monkey Wrench
+    Track: 9 - Big Me
+    Track: 10 - Breakout
+    Track: 11 - Long Road To Ruin
+    Track: 12 - This Is A Call
+    Track: 13 - Skin And Bones
+    Track: 14 - Wheels
+    Track: 15 - Word Forward
+    Track: 16 - Everlong (Acoustic Version)
 
 ## License
 
